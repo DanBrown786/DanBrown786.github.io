@@ -55,7 +55,7 @@ body {
   }
   
   .hero {
-    background-image: url('C:/Users/DELL/Downloads/PFQF/Test/Background.jpg');
+    background-image: url('Background.jpg');
     filter:brightness(1);
     display: flex; 
     justify-content: center;
