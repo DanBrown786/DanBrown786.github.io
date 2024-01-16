@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf9sd-4irS1OkRyfFeDh0-4DZgFcSbtuJbXNAr5mjaLaq9jQA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+    <label> First name :</label> <br>
+    <input type="text" id="entry.1051837223"><br>
+    <label> Last name :</label> <br>
+    <input type="text" id="entry.1111371318">
+    <input type="submit" value="Submit">
+  </form>
+  
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(l) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
+  
+</body>
+</html>
+
+https://docs.google.com/forms/d/e/1FAIpQLSf9sd-4irS1OkRyfFeDh0-4DZgFcSbtuJbXNAr5mjaLaq9jQA/viewform?usp=pp_url&entry.1051837223=abf&entry.1111371318=fjbfbf&entry.1977831559=fhfbuhfu
