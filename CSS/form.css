@@ -1,0 +1,129 @@
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: aliceblue;
+    position: relative;
+}
+
+.sub form{
+    width: 37.5rem;
+    text-align: center;
+}
+
+.error-txt{
+    font-size: .9375rem;
+    color: red;
+    text-align: left;
+    margin:-0.3125rem 0 .75rem;
+    display: none;
+}
+
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+padding: 1.25rem;
+}
+
+
+.item{
+width: 100%;
+padding: 1.125rem;
+background: transparent;
+border:.125rem solid #3498db;
+outline: none;
+border-radius: .375rem;
+font-size: 1rem;
+color: #000;
+margin: .75rem 0rem;
+}
+
+.error{
+    border-color:rgb(255, 63, 63);
+}
+
+.error .error-txt{
+   display: block;
+}
+
+.textarea-field .item{
+    resize: none;
+}
+
+form button{
+    padding: .75rem 2rem;
+    background: #3498db;
+    border: none;
+    outline: none;
+    border-radius: .375rem;
+    box-shadow:0 0 .625rem #3498db;
+    font-size: 1rem;
+     color: #333;
+    letter-spacing: .0625rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1.25rem;
+    transition: 0.5s;
+}
+form button:hover{
+    box-shadow: none;
+}
+
+.popup{
+    display: block;
+    justify-content: center;
+   width: 40%;
+height: 65%;
+   background: #fff;
+   border-radius: .375rem;
+   position: absolute;
+   top: -17%;
+    left: 51%;
+   transform: translate(-50%,50%) scale(1);
+   text-align: center;
+   border: dotted #3498db;
+    padding:  0 1.875rem 1.875rem;
+    color: #333;
+visibility:hidden;
+}
+.child {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+
+.view_popup{
+    visibility: visible;
+    transform: translate(-50%,50%) scale(1);
+}
+
+.popup button{
+    padding: .75rem 2rem;
+    background: #3498db;
+    border: none;
+    outline: none;
+    border-radius: .375rem;
+    box-shadow:0 0 .625rem #3498db;
+    font-size: 1rem;
+     color: #333;
+    letter-spacing: .0625rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1.25rem;
+    transition: 0.5s;
+}
+
+.popup button:hover{
+    box-shadow: none;
+}
+
+.op{
+    display:block;
+    background: #fff;
+    height:100%;
+    width: 100%;
+    opacity:0.5;
+}
