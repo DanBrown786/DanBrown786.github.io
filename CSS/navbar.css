@@ -166,6 +166,7 @@ display: none;
   }
   .show{
     display: block;
+     top:207%;
   }
 }
  
