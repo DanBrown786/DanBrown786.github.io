@@ -65,6 +65,7 @@ body {
     padding: 12.5rem 0;
     z-index: 1;
     position: relative;
+      width:100%;
   }
   
   .hidden {
