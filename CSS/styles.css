@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap');
 
-section{
-margin:0;
-}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -10,6 +8,8 @@ body {
     box-sizing: border-box;
     background-color: aliceblue;
     height: 100%;
+    width:100%;
+    overflow: scroll;
   }
 
 
@@ -37,14 +37,18 @@ body {
   .container {
     margin: 0 ;
   }
-
+.logo{
+  margin: 0;
+  padding: 0;
+}
 
   .logo img {
     position: inherit;
-    padding-top: .625rem;
+    padding-top: 1rem;
     display: block;
     width: 10rem;
     height: 10rem;
+    margin: 0;
   }
   
 
@@ -62,10 +66,10 @@ body {
     background-position: center;
     color: #ffffff;
     text-align: center;
-    padding: 12.5rem 0;
+    padding: 12.5rem 1.875rem;
     z-index: 1;
     position: relative;
-      width:100%;
+    width: 100%;
   }
   
   .hidden {
@@ -130,10 +134,12 @@ filter:brightness(1);
     font-weight: bold;
   }
   
-  .about, .services, .contact {
+  .about, .contact {
     display: flex;
-    background-color: #f0f8ff;  
+    background-color: #f0f8ff;
+    padding: 5rem 1.875rem;    
     justify-content: center;
+    width:100%;
   }
   
   .about h2, .services h2, .contact h2 {
@@ -181,7 +187,7 @@ filter:brightness(1);
     background-color: #002137;
     color: #ffffff;
     text-align: center;
-    padding: 1.25rem 0;
+    padding: 1.25rem 1.875rem;
     width:100%;
   }
   
