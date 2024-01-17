@@ -131,8 +131,7 @@ filter:brightness(1);
   
   .about, .services, .contact {
     display: flex;
-    background-color: #f0f8ff;
-    padding: 5rem 0;    
+    background-color: #f0f8ff;  
     justify-content: center;
   }
   
