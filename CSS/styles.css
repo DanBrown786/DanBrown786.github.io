@@ -9,7 +9,6 @@ body {
     background-color: aliceblue;
     height: 100%;
     width:100%;
-    overflow: scroll;
   }
 
 
@@ -37,19 +36,6 @@ body {
   .container {
     margin: 0 ;
   }
-.logo{
-  margin: 0;
-  padding: 0;
-}
-
-  .logo img {
-    position: inherit;
-    padding-top: 1rem;
-    display: block;
-    width: 10rem;
-    height: 10rem;
-    margin: 0;
-  }
   
 
   .ff.hidden {
@@ -58,7 +44,7 @@ body {
   }
   
   .hero {
-    background-image: url('Background.jpg');
+    background-image: url('C:/Users/DELL/Downloads/PFQF/Test/Background.jpg');
     filter:brightness(1);
     display: flex; 
     justify-content: center;
@@ -155,6 +141,7 @@ filter:brightness(1);
     padding-bottom: 0;
     margin-bottom: 0;
     border-bottom: 0;
+    padding-right: 1.875rem;  
   }
 
   .bb {
