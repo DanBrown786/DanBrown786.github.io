@@ -20,13 +20,19 @@
   <div class="letter" id="letter4">F</div>
 </div>
 <body id="mainContent" data-scroll>
- 
+ <section>
   <header >
+   
     <nav> 
+      <div class="toggle_but" onclick="tfunction()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
         <div class="logo" >
           <img src="PFQF_LOGO.svg" alt="External SVG">
         </div>
-        <ul class="nav-links"> 
+        <ul class="nav-links" id="nav"> 
           <li ><a href="#">Home</a></li>
           <li ><a href="#" >About Us ▼</a>
             <ul class="dropdown">
@@ -59,6 +65,7 @@
     </nav>
     
   </header>
+  </section>
   <div class="hero" data-scroll data-scroll-speed="1">
     <div class="gradient-mask Forpic hidden "></div>
     <div>
@@ -69,7 +76,7 @@
         Empowering    Transparency,     Fostering     Accountability</h1></div>
     </div>
   </div>
-  <div class="about">
+  <section class="about">
     <img src="about-info.svg" alt="info" class="im">
     <div class="container">
       <h2>What is PFQF?</h2>
@@ -81,11 +88,11 @@
 
           <centre><a  href="#" class="btn">Learn More</a></centre>
     </div>
-  </div>
+  </section>
 
-  <div class="services" id="mainContent">
+  <section class="services" id="mainContent">
     <h2 class="scroll-element">Publications</h2>
-  </div>
+  </section>
   
   <div class="blog">
     <div class="card">
@@ -110,17 +117,17 @@
     </div>
   </div>
 
-  <div class="bb" id="mainContent">
+  <section class="bb" id="mainContent">
     <centre><a  href="#" class="btn">View More</a></centre>
-  </div>
+  </section>
  
-  <div class="contact" id="mainContent">
+  <section class="contact" id="mainContent">
     <div class="container">
       <h2>Contact Us</h2>
       <p>Get in touch with us for any inquiries or collaboration.</p>
       <a style='text-align: center;' href="#" class="btn">Contact Us</a>
     </div>
-  </div>
+  </section>
 
   <footer id="mainContent">
     <div class="container">
@@ -143,6 +150,11 @@
         speed:0.7,
       });
     });
+
+    function tfunction(){
+      var navbar= document.getElementById('nav');
+      navbar.classList.toggle('show');
+    }
   </script>  
 </body>
 </html>
